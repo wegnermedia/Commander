@@ -1,0 +1,21 @@
+{
+    "name": "wegnermedia/commander",
+    "description": "Simple Command Handler Support",
+    "keywords": ["commanding","laravel"],
+    "authors": [
+        {
+            "name": "Stefan Wegner",
+            "email": "stefan@wegnermedia.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wegnermedia\\Commander": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
