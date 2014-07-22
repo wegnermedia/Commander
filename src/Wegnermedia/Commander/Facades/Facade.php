@@ -1,8 +1,8 @@
-<?php namespace Wegnermedia\Commander;
+<?php namespace Wegnermedia\Commander\Facades;
 
-use Illuminate\Support\Facades\Facade as LaravelFacade;
+use Illuminate\Support\Facades\Facade;
 
-class Facade extends LaravelFacade {
+class Commander extends Facade {
 
 	protected static function getFacadeAccessor() {
 		// Return Name of Binding in IoC Container
