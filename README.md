@@ -24,7 +24,7 @@ Next, add the facade `app/config/app.php`.
 
 ```php
 'aliases' => [
-    'Commander' => 'Wegnermedia\Commander\Facade'
+    'Commander' => 'Wegnermedia\Commander\Facades\Commander'
 ]
 ```
 
